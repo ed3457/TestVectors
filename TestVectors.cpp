@@ -16,12 +16,21 @@ int main()
         vec1.push_back(i);
     }
 
-    for (int i = 0; i <vec1.size(); i++)
-    {
-        cout<<vec1[i]<<endl;
-    }
+    //for (int i = 0; i <vec1.size(); i++)
+    //{
+    //    //cout<<vec1[i]<<endl;
+    //    cout << vec1.at(i) << endl;
+    //}
 
-    cout << vec1.size() << endl;
+   // cout << vec1.size() << endl;
 
-    //vector<char> vec2 (10,)
+    vector<char> vec2(10, 'A');
+
+
+    for (int i = 0; i < vec2.size(); i++)
+        {
+            cout<<vec2[i]<<endl;
+        
+        }
+
 }
